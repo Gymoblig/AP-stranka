@@ -33,35 +33,21 @@
   top: 0px;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(18, 18, 18);
+  background-color: #000000 !important; /* Use pure black for a true Matrix look */
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999; /* Ensure loader is on top of content */
+  z-index: 1000; /* Ensure loader is on top of content */
 }
 
-#loader > * { /* Style your loader content here */
-  width: 80px;
-  aspect-ratio: 1;
-  border: 10px solid #000;
-  box-sizing: border-box;
-  background: 
-  radial-gradient(farthest-side,#fff 98%,#0000) top,
-  radial-gradient(farthest-side,#fff 98%,#0000) top,
-  radial-gradient(farthest-side,#fff 98%,#0000) left,
-  radial-gradient(farthest-side,#fff 98%,#0000) right,
-  radial-gradient(farthest-side,#fff 98%,#0000) bottom,
-  #000;
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  filter: blur(4px) contrast(10); 
+#loader > * {
   animation: loading 2s linear infinite;
+  color: #0bff0b; /* Use the specified green color */
+  font-family: "monospace"; /* Use a monospace font for the Matrix effect */
+  font-size: 12px; /* Adjust font size as needed */
 }
 
 @keyframes loading {
-  0%  {background-position:top,top,left,right,bottom}
-  25% {background-position:right,top,left,right,bottom}
-  50% {background-position:bottom,top,left,right,bottom}
-  75% {background-position:left,top,left,right,bottom}
-  100% {background-position:top,top,left,right,bottom}
+  from { transform: translateY(0); }
+  to { transform: translateY(100vh); } /* Simulate falling characters */
 }

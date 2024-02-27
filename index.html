@@ -11,57 +11,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/style.css">
-    <style>
-        /* HTML: <div class="loader"></div> */
-        .loader {
-          width: 80px;
-          aspect-ratio: 1;
-          border: 10px solid #000;
-          box-sizing: border-box;
-          background:
-            radial-gradient(farthest-side, #fff 98%, #0000) top,
-            radial-gradient(farthest-side, #fff 98%, #0000) top,
-            radial-gradient(farthest-side, #fff 98%, #0000) left,
-            radial-gradient(farthest-side, #fff 98%, #0000) right,
-            radial-gradient(farthest-side, #fff 98%, #0000) bottom,
-            #000;
-          background-size: 20px 20px;
-          background-repeat: no-repeat;
-          filter: blur(4px) contrast(10);
-          animation: l19 2s infinite;
-        }
     
-        @keyframes l19 {
-          0% {
-            background-position: top, top, left, right, bottom;
-          }
-    
-          25% {
-            background-position: right, top, left, right, bottom;
-          }
-    
-          50% {
-            background-position: bottom, top, left, right, bottom;
-          }
-    
-          75% {
-            background-position: left, top, left, right, bottom;
-          }
-    
-          100% {
-            background-position: top, top, left, right, bottom;
-          }
-        }
-      </style>
 </head>
-
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
     <div id="loader">
         <div class="spinner-border text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
       </div>
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+    <nav class="navbar navbar-light navbar-expand-md" id="mainNav">
         <div class="container"><a class="navbar-brand" href="#" style="color:#0bff0b;">AP</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
