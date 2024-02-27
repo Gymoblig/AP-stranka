@@ -33,21 +33,18 @@
   top: 0px;
   width: 100vw;
   height: 100vh;
-  background-color: #000000 !important; /* Use pure black for a true Matrix look */
+  background-color: rgba(34, 34, 34, 0.5); /* Adjust opacity and background color */
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Ensure loader is on top of content */
+  z-index: 999; /* Ensure loader is on top of content */
 }
 
-#loader > * {
+#loader > * { /* Style your loader content here */
   animation: loading 2s linear infinite;
-  color: #0bff0b; /* Use the specified green color */
-  font-family: "monospace"; /* Use a monospace font for the Matrix effect */
-  font-size: 12px; /* Adjust font size as needed */
 }
 
 @keyframes loading {
-  from { transform: translateY(0); }
-  to { transform: translateY(100vh); } /* Simulate falling characters */
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
