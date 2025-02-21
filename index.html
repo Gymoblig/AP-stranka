@@ -1,183 +1,151 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="sk">
 <head>
-    <meta charset="utf-8">
-    <link rel="icon" href="assets/img/logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Architektúra Počítačov</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architektúra Počítačov</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/img/logo.jpg">
 </head>
-<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-    <div id="loader">
-        <div class="spinner-border text-primary" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-      </div>
-    <nav class="navbar navbar-light navbar-expand-md" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#" style="color:#0bff0b;">AP</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item nav-link"><a class="nav-link active" href="index.html#uvod">Čo je AP?</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="index.html#kontakt">Kontakt</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="index.html#uvodne_cvicenie">Úvodné cvičenie</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="info.html">Návod/Pravidlá/Kontrolné otázky</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="blok1.html">Blok 1</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="blok2.html">Blok 2</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="404.html">Blok 3</a></li>  
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header class="masthead" style="background-image:url('assets/img/pozadieBLUR.gif');">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading">Architektúra Počítačov</h1>
-                        <p class="intro-text">Programovanie je Vaša zbraň</p><a class="btn btn-link btn-circle" role="button" href="#uvod"><i class="fa fa-angle-double-down animated"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="text-center content-section" id="uvod">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>O čom je Architektúra Počítačov?</h2>
-                    <p>Programovaním viete prinútiť počítač, aby robil presne to, čo chcete. Ako iste viete, počítač je schopný obrovského množstva vecí od posielania informácií v zlomku sekundy na opačný koniec zemegule prostredníctvom internetu až po ovládanie robotických systémov.</a></b></p>
-                    <p>Programovať sa naučíte len tak, že sa s tým sami vytrápite spôsobom pokus-omyl. Nik iný to za Vás nespraví. Inšpirovať sa existujúcimi kódmi môže byť dobré a užitočné, ale bezduché kopírovanie cudzích riešení Vás nikam neposunie a v konečnom dôsledku Vás skôr či neskôr dobehne. Preto sa treba zaťať, prekonávať a učiť sa na vlastných chybách.</p>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="text-center download-section content-section" id="kontakt" style="background-image:url('assets/img/pozadieBLUR.gif');"">
-        <div class="container">
-            <div class="col-lg-8 mx-auto">
-                <h2>Kontakt na nás</h2>
-                <p style="font-size:15px; margin-top: -20px;">Máš otázky? Nevieš si poradiť?</p>
-                <p style="font-size:25px;">Neváhaj a napíš nám!</p>
-                <ul class="list-inline banner-social-buttons">
-                    <p id="mail1" style="display: none;">juraj.slacka@stuba.sk</p>
-                    <li class="list-inline-item">&nbsp;<button onclick="copy('mail1')" class="btn btn-primary btn-lg btn-default" type="button" style="margin-bottom:15px;max-width: 400px;" ><i class="fa fa-id-card fa-fw"></i><span class="network-name"> &nbsp;Prednášajúci: Ing. Juraj Slačka, PhD.</span></button></li>
-                    <p id="mail2" style="display: none;">michal.tolgyessy@stuba.sk</p>
-                    <li class="list-inline-item">&nbsp;<button onclick="copy('mail2')" class="btn btn-primary btn-lg btn-default" type="button" style="margin-bottom:15px;max-width: 400px;" ><i class="fa fa-id-card fa-fw"></i><span class="network-name"> &nbsp;Vedúci cvičení: Ing. Michal  Tölgyessy, PhD. </span></button></li>
-                    <p style="font-size: 12px;">Mail môžeš skopírovať kliknutím</p>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="clean-block clean-info dark text-justify" id="uvodne_cvicenie">
-        <div class="container">
-            <footer>
-                <div class="container text-center">
-                </div>
-            </footer>
-            <div class="row align-items-center">
-                <div class="col-md-6"><img class="img-thumbnail" src="assets/img/uvod/1.png"></div>
-                <div class="col-md-6" style="background-color: black;">
-                    <h3>Úvodné cvičenie</h3>
-                    <div class="getting-started-info">
-                        <p style="text-align: justify;">Vašou prvou úlohou je zoznámiť sa s kompilátorom, ktorý budete používať v príkazovom riadku. Kompilátor je softvérový nástroj, ktorý je schopný preložiť („skompilovať“) zdrojový kód zrozumiteľný programátorovi do kódu zrozumiteľnému počítaču. Skopírujte si súbor <b>cli.bat</b> z adresára <b>J:\Programs\mingw</b> na Plochu.</p>
-                        <p style="color:#0bff0b;">POZOR – vo vnútri súboru následne prepíšte rok 2022 na rok 2023, resp. rok, kedy ste nastúpili na štúdium, ak ste opakovaný študent.</p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="clean-block clean-info dark text-justify" style="background-image:url('assets/img/pozadieBLUR.gif');">
-        <div class="container">
-            <footer>
-                <div class="container text-center">
-                </div>
-            </footer>
-            <div class="row align-items-center">
-                
-                <div class="col-md-6">
-                    <h3>A aký je ďalší krok?</h3>
-                    <div class="getting-started-info">
-                        <p>Uložte súbor a spustite ho.</p>
-                        <p>Uvidíte niečo takéto (Váš výstup je ale trochu iný, pretože máte adresáre na sieťovom disku N):</p>
-                    </div>
-                </div>
-                <div class="col-md-6"><img class="img-thumbnail" src="assets/img/uvod/2.png"></div>
-            </div>
-        </div>
-    </section>
-    <section class="clean-block clean-info dark text-justify">
-        <div class="container">
-            <footer>
-                <div class="container text-center">
-                </div>
-            </footer>
-            <div class="row align-items-center">
-                <div class="col-md-6"><img class="img-thumbnail" src="assets/img/uvod/3.png"></div>
-                <div class="col-md-6" style="background-color: black;">
-                    <h3>Písanie kódu...</h3>
-                    <div class="getting-started-info">
-                        <p style="text-align: justify;">Ďalej spustite program Notepad++ (alebo iný textový editor)a prepíšte doň nasledovný kód.</p>
-                        <p style="text-align: justify;">Uložte si ho do adresára <b>Documents</b> a skompilujte pomocou nasledovného príkazu, kde miesto myFile.c uvediete názov Vášho súboru.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="clean-block clean-info dark text-justify" style="background-image:url('assets/img/pozadieBLUR.gif');">
-        <div class="container">
-            <footer>
-                <div class="container text-center">
-                </div>
-            </footer>
-            <div class="row align-items-center">
-                
-                <div class="col-md-6">
-                    <h3>Overenie cesty ku vytvoreným súborom</h3>
-                    <div class="getting-started-info">
-                        <p style="text-align: justify;">Pomocou príkazu dir si viete zobraziť obsah adresára. Po úspešnej kompilácii by ste mali medzi uvedenými súbormi vidieť aj program.exe.</p>
-                        <p>Spustíte ho tak, že jednoducho napíšete jeho názov (v našom prípade <b>program</b>) a stlačíte Enter.</p>
-                    </div>
-                </div>
-                <div class="col-md-6"><img class="img-thumbnail" src="assets/img/uvod/4.png"></div>
-            </div>
-        </div>
-    </section>
-    <section class="clean-block clean-info dark text-justify">
-        <div class="container">
-            <footer>
-                <div class="container text-center">
-                </div>
-            </footer>
-            <div class="row align-items-center">
-                <div class="col-md-6"><img class="img-thumbnail" src="assets/img/uvod/5.png"></div>
-                <div class="col-md-6" style="background-color: black;">
-                    <h3>Ak Vaša funckia funguje</h3>
-                    <div class="getting-started-info">
-                        <p style="text-align: justify;">Vašou ďalšou úlohou je naprogramovať funkciu, ktorá na obrazovku vypíše čísla od jeden do sto.</p>
-                        <p style="text-align: justify;">Výstup by mal vyzerať nejak takto.</p>
-                        <p style="text-align: justify; color: #0bff0b;">Ďalej doprogramujte funkciu, ktorá vypíše buď všetky párne, alebo všetky nepárne čísla v rozsahu od 1 do 30. Využite na to operáciu modulo. Keď to budete mať, zavolajte svojho cvičiaceho a získate tým svoje prvé 2 body. Potom začnite pracovať na zadaniach z Bloku 1.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container text-center">
-            <p>Architektúra Počítačov 2024 - Matúš Ondrejka</p>
-        </div>
-    </footer>
-        
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/grayscale.js"></script>
-    <script src="assets/js/kopirovanie.js"></script>
-    <script src="assets/bootstrap/js/function.js"></script>
+<body>
+  <div id="loader" class="loader"></div>
+  <div id="content" class="content">
+    <header id="intro-header">
+        <h1 id="intro-text">Architektúra Počítačov</h1>
+        <h3>Programovanie je vaša zbraň</h3>
+        <button id="hamburger-menu" class="hamburger-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </header>
+      
+      <nav id="mobile-menu" class="mobile-menu">
+        <ul>
+          <li><a href="#CO_JE_AP">O čom je AP?</a></li>
+          <li><a href="#NAVOD">Návod</a></li>
+          <li><a href="#PRAVIDLA">Pravidlá</a></li>
+          <li><a href="#OTAZKY">Kontrolné Otázky</a></li>
+          <li><a href="#UVODNE_CVICENIE">Úvodné Cvičenie</a></li>
+          <li><a href="#KONTAKT">Kontakt</a></li>
+          <li><a href="blok_1.html">Blok 1</a></li>
+          <li><a href="blok_2.html">Blok 2</a></li>
+          <li><a href="blok_3.html" >Blok 3</a></li>
+        </ul>
+      </nav>
+      
+    <button id="theme-switcher" class="theme-switcher">
+      <img id="theme-icon" src="" alt="Theme icon">
+    </button>
     
-</body>
+    <div id="main-content">
+      <div id="CO_JE_AP" class="section">
+        <h2>O čom je AP?</h2>
+        <p>Programovaním viete prinútiť počítač, aby robil presne to, čo chcete. 
+          Ako iste viete, počítač je schopný obrovského množstva vecí od posielania informácií v zlomku sekundy na opačný koniec zemegule prostredníctvom internetu až po ovládanie robotických systémov.</p>
+        <p>Programovať sa naučíte len tak, že sa s tým sami vytrápite spôsobom pokus-omyl. Nik iný to za Vás nespraví. Inšpirovať sa existujúcimi kódmi môže byť dobré a užitočné, ale bezduché kopírovanie cudzích riešení Vás nikam neposunie a v konečnom dôsledku Vás skôr či neskôr dobehne. Preto sa treba zaťať, prekonávať a učiť sa na vlastných chybách.</p>
+      </div>
 
+      <div id="NAVOD" class="section">
+        <h2>Návod</h2>
+        <p>Založenie projektu v MS Studio</p>
+        <ul>
+          <li>1. Kliknite na File/New/Project</li>
+        </ul>
+        <img src="assets/img/info/1.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+        <ul>
+          <li>2. Kliknite vľavo na Visual C++ a potom na Windows Console Application. Zvoľte si názov projektu a uložte si ho do adresára Documents.</li>
+        </ul>
+        <img src="assets/img/info/2.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+        <ul>
+          <li>3. Aby ste mohli v MS Visual Studio bez problémov používať funkciu scanf je potrebné napísať riadok z obrázka dolu presne na dané miesto.</li>
+        </ul>
+        <img src="assets/img/info/3.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+      </div>
+
+      <div id="PRAVIDLA" class="section">
+        <h2>Pravidlá</h2>
+        <p style="color: #44ff00;">!!! Počas cvičení je zakázané používať sociálne siete !!!</p>
+        <p>Cvičenia pozostávajú z troch blokov, pričom prvý trvá štyri týždne, druhý päť a tretí 3 týždne semestra. Na získanie zápočtu musíte z každého bloku získať aspoň polovicu z maximálneho počtu bodov.</p>
+        <p style="color: #44ff00;">Účasť na cvičeniach je povinná. V prípade absencie si cvičenie musíte nahradiť v inom termíne. (Ak máte legitímne ospravedlnenie od lekára v IS-e, je po schválení cvičiacim možné tolerovať 1-2 absencie)</p>
+        <p >Bodové hodnotenie cvičení:</p>
+        <ol>
+          <li>Úlohy z prvého bloku (1. – 4. týždeň): -12 bodov (musíte získať aspoň 6), do bodového hodnotenia prvého bloku sa počítajú aj body za úvodné cvičenie</li>
+          <li>Úlohy z druhého bloku (5. – 9. týždeň): -16 bodov (musíte získať aspoň 8)</li>
+          <li>Úlohy z tretieho bloku (10. – 12. týždeň): -12 bodov (musíte získať aspoň 6)</li>
+        </ol>
+
+        <p>Body získavate priebežne za odovzdávanie zadaní počas cvičení. Odovzdanie prebieha nasledovne:</p>
+        <ol>
+          <li>Pre danú úlohu si prichystáte odladený a funkčný zdrojový kód.</li>
+          <li>Zavoláte cvičiaceho a odprezentujete mu svoje riešenie. Musí ísť o Váš vlastný kód, musíte mu rozumieť a vedieť ho vysvetliť.</li>
+          <li>Cvičiaci sa Vás môže spýtať doplňujúce otázky k Vášmu riešeniu.</li>
+          <li>Na záver sa Vás spýta jednu alebo viac otázok (sekcia <a href="#OTAZKY">Kontrolné otázky</a>) uvedených na webe. Ak nebudete vedieť odpovedať riskujete stratu bodov.</li>
+          <li>Cvičiaci Vám udelí body, príp. navrhne prepracovanie časti zadania, aby ste mohli získať plný počet.</li>
+          <li style="color: #44ff00;">Na každom cvičení musíte odovzdať aspoň jedno zadanie.</li>
+          <li style="color: #44ff00;">Mať funkčný kód, ktorému nerozumiete vôbec nestačí, práve naopak, jedná sa o plagiát. Plagiátorstvo je penalizované! Nula bodov získa ten, kto zadanie poskytol, aj ten kto použil cudzí kód.</li>
+        </ol>
+        <p >Fyzické odovzdávanie zdrojových kódov:</p>
+        <ol>
+          <li>Na záver každého bloku odovzdáte Vaše zdrojové kódy prostredníctvom AIS. Odovzdávate len jeden .c súbor za celý daný blok. Nezabudnite odovzdať včas, inak prídete o body! Radšej odovzdávajte priebežne.</li>
+          <li style="color:#44ff00">Po skončení semestra prebehne anti-plagiátorská kontrola. V prípade, že dvaja študenti budú mať zhodné zdrojové kódy (okrem prípadu najjednoduchších zadaní), prídu obaja študenti o všetky body.</li>
+        </ol>
+      </div>
+
+      <div id="OTAZKY" class="section">
+        <h2>Otázky</h2>
+        <p>Tu sú niektoré časté otázky k témam, ktoré budeme preberať:</p>
+        <ul>
+          <li>Čo je CPU a ako funguje?</li>
+          <li>Aký je rozdiel medzi RAM a ROM?</li>
+          <li>Na čo slúžia registry v procesore?</li>
+        </ul>
+      </div>
+
+      <div id="UVODNE_CVICENIE" class="section">
+        <h2>Úvodné Cvičenie</h2>
+        <p>Vašou prvou úlohou je zoznámiť sa s kompilátorom, ktorý budete používať v príkazovom riadku. Kompilátor je softvérový nástroj, ktorý je schopný preložiť („skompilovať“) zdrojový kód zrozumiteľný programátorovi do kódu zrozumiteľnému počítaču. Skopírujte si súbor cli.bat z adresára J:\Programs\mingw na Plochu.</p>
+        <p style="color: #44ff00;">POZOR – vo vnútri súboru následne prepíšte rok 2022 na rok 2023, resp. rok, kedy ste nastúpili na štúdium, ak ste opakovaný študent.</p>
+        <img src="assets/img/uvod/1.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+        <ul>
+          <li>Uložte súbor a spustite ho.</li>
+          <li>Uvidíte niečo takéto (Váš výstup je ale trochu iný, pretože máte adresáre na sieťovom disku N):</li>
+        </ul>
+        <img src="assets/img/uvod/2.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+        <ul>
+          <li>Ďalej spustite program Notepad++ (alebo iný textový editor)a prepíšte doň nasledovný kód.</li>
+          <li>Uložte si ho do adresára <b>Documents</b> a skompilujte pomocou nasledovného príkazu, kde miesto myFile.c uvediete názov Vášho súboru.</li>
+        </ul>
+        <img src="assets/img/uvod/3.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+        <ul>
+          <li>Pomocou príkazu dir si viete zobraziť obsah adresára. Po úspešnej kompilácii by ste mali medzi uvedenými súbormi vidieť aj program.exe.</li>
+          <li>Spustíte ho tak, že jednoducho napíšete jeho názov (v našom prípade program) a stlačíte Enter.</li>
+        </ul>
+        <img src="assets/img/uvod/4.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+        <ul>
+          <li>Vašou ďalšou úlohou je naprogramovať funkciu, ktorá na obrazovku vypíše čísla od jeden do sto.</li>
+          <li>Výstup by mal vyzerať nejak takto.</li>
+          <li style="color: #44ff00;"">Ďalej doprogramujte funkciu, ktorá vypíše buď všetky párne, alebo všetky nepárne čísla v rozsahu od 1 do 30. Využite na to operáciu modulo. Keď to budete mať, zavolajte svojho cvičiaceho a získate tým svoje prvé 2 body. Potom začnite pracovať na zadaniach z Bloku 1.</li>
+        </ul>
+        <img src="assets/img/uvod/5.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+      </div>
+
+      <div id="KONTAKT" class="section">
+        <h2>Kontakt</h2>
+        <p>Máš otázky? Nevieš si poradiť?</p>
+        <p>Neváhaj a napíš nám!</p>
+        <ul>
+          <p style="color: #44ff00;">Prednášajúci: Ing. Juraj Slačka, PhD.</p>
+          <li>juraj.slacka@stuba.sk</li>
+          <p style="color: #44ff00;">Vedúci cvičení: Ing. Michal  Tölgyessy, PhD. </p>
+          <li>michal.tolgyessy@stuba.sk</li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
