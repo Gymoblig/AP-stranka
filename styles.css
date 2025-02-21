@@ -400,20 +400,23 @@ button.ulohy {
   background-color: black;
   color: #00ff00; /* Matrix zelená */
   font-family: 'Courier New', Courier, monospace;
-  font-size: 18px;
+  font-size: 15px;
   border: 2px solid #00ff00;
   border-radius: 5px;
-  padding: 15px 30px;
-  margin: 10px;
+  padding: 2vw 4vw;
+  margin: 1vw;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
-  min-height: 75px;
-  max-width: 160px;
+  min-height: 10vh;
+  min-width: 10vw;
+  width: 20vw;
+  height: 10vh;
 }
+
 body.light button.ulohy{
   background-color: #f0f0f0;
   color:#000;
@@ -456,14 +459,35 @@ button.ulohy:active {
 .button-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 stĺpce */
-  grid-gap: 20px; /* Medzera medzi tlačidlami */
-  max-width: 800px;
+  grid-gap: 2vw; /* Medzera medzi tlačidlami */
+  max-width: 80vw;
   margin: 0 auto;
+  justify-items: center;
+  align-items: center;
 }
+
 
 /* Responsívny dizajn, ak je na menších obrazovkách */
 @media (max-width: 600px) {
   .button-container {
     grid-template-columns: 1fr 1fr; /* 2 stĺpce pre menšie obrazovky */
   }
+}
+
+pre {
+  background-color: #1e1e1e;
+  padding: 1vw;
+  margin: 1vw auto;
+  overflow: auto;
+  white-space: pre-wrap; /* Prispôsobenie obsahu */
+  word-wrap: break-word;
+  width: 80vw; /* Prispôsobenie šírky */
+  max-width: 100%; /* Uistíme sa, že nepresiahne šírku kontajnera */
+  box-sizing: border-box; /* Zahŕňa padding a margin do celkovej šírky */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+body.light pre{
+  background-color: #dadada;
 }

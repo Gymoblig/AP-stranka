@@ -91,13 +91,13 @@
         <p>Vložte do C-programu kúsok assemblerovského kódu, ktorým vypočítate súčet dvoch premenných.</p>
         <p>Tip:</p> 
           <ul>
-            <li>Ako základ môžete použiť <a href="vzor.html">tento program</a>, ktorý inkrementuje premennú. Stačí doplniť druhú premennú a vymeniť inštrukciu INC za ADD.</li>
+            <li>Ako základ môžete použiť <a href="http://ap.urk.fei.stuba.sk/blok-2-asm1/">tento program</a> (Prerobím keď budem mať čas), ktorý inkrementuje premennú. Stačí doplniť druhú premennú a vymeniť inštrukciu INC za ADD.</li>
             <li>Ak vám vzorový program nejde skompilovať v MS Visual Studio, zmeňte cieľovú architektúru z x64 na x86 v combo box-e na hlavnej lište.</li>
           </ul>
         <p>Zdroj:</p>
         <ul>
-          <li><a href="assemb.html">.., Assem… Čo? Aký assembler?</a></li>
-          <li style="color: #44ff00;"><a href="instrukcie.html">.., Assem… Čo? Aký assembler?</a></li>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm2/">.., Assem… Čo? Aký assembler?</a> (Prerobím keď budem mať čas)</li>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm3/">Výber strojových inštrukcií s popisom</a> (Prerobím keď budem mať čas)</li>
         </ul>
       </div>
 
@@ -106,7 +106,7 @@
         <p>Napíšte pomocou vloženého (embedded) asembleru C-program v ktorom použijete vlastnú funkciu na násobenie dvomi bez použitia súčinu.</p>
         <p>Tip: </p>
         <ul>
-          <li>Stačí ak si spomeniete, že násobenie dvoma v binárnej sústave znamená posunúť číslo o jedno miesto doľava. Ako základ môžete použiť opäť <a href="vzor.html">tento program</a> z predošlej úlohy, ktorý inkrementuje premennú. Stačí vymeniť inštrukciu INC za SHL.</li>
+          <li>Stačí ak si spomeniete, že násobenie dvoma v binárnej sústave znamená posunúť číslo o jedno miesto doľava. Ako základ môžete použiť opäť <a href="http://ap.urk.fei.stuba.sk/blok-2-asm1/">tento program</a> (Prerobím keď budem mať čas) z predošlej úlohy, ktorý inkrementuje premennú. Stačí vymeniť inštrukciu INC za SHL.</li>
         </ul>
       </div>
 
@@ -118,7 +118,7 @@
         <p>Tip: </p>
         <ul>
           <li>Tento kus programu v C urobí to isté: znak = cislo < 10 ? cislo + ‘0’ : cislo + 55;</li>
-          <li>Ako základ môžete použiť znova <a href="vzor.html">tento program</a>, ktorý inkrementuje premennú. Stačí vymeniť inštrukciu INC za ADD a doplniť test (CMP) s nejakým podmieneným skokom.</li>
+          <li>Ako základ môžete použiť znova <a href="http://ap.urk.fei.stuba.sk/blok-2-asm1/">tento program</a> (Prerobím keď budem mať čas), ktorý inkrementuje premennú. Stačí vymeniť inštrukciu INC za ADD a doplniť test (CMP) s nejakým podmieneným skokom.</li>
           <li style="color: #44ff00;">Pri odovzdávaní zadania musíte preukázať znalosť <a href="https://sk.wikipedia.org/wiki/ASCII">ASCII TABUĽKY</a></li>
         </ul>
       </div>
@@ -133,7 +133,9 @@
         </ul>
         <p>Zdroj:</p>
         <ul>
-          <li><a href="instrukcie2.html">Inštrukcie CPUID a Error C2443: operand size conflict</a></li>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm4/">Inštrukcie CPUID</a></li>
+          <li><a href="https://www.paradicesoftware.com/specs/cpuid/index.htm">Viac informácií o CPUID</a></li>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm5/">Error C2443: operand size conflict</a></li>
         </ul>
       </div>
       <div id="uloha22" class="section">
@@ -163,7 +165,7 @@
         </ul>
         <p>Tip 2.:</p>
         <ul>
-          <li> Tu nájdete kompletnú tabuľku kódovania <a href="https://www.jakpsatweb.cz/cestina-tabulky.html">ISO-8859-2, Win-1250</a>,ale zrejme vystačíte s tabuľkou, kde je len tých<a href="znaky.html">8 rozdielnych znakov</a>.</li>
+          <li> Tu nájdete kompletnú tabuľku kódovania <a href="https://www.jakpsatweb.cz/cestina-tabulky.html">ISO-8859-2, Win-1250</a>,ale zrejme vystačíte s tabuľkou, kde je len tých <a href="http://ap.urk.fei.stuba.sk/blok-2-asm6/">8 rozdielnych znakov</a> (Prerobím keď budem mať čas).</li>
         </ul>
         <p>Tip 3.:</p>
         <ul>
@@ -219,160 +221,130 @@
 
 
       <div id="uloha24" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
+        <h2>Úloha 2.4 (4b)</h2>
+        <p>Napíšte program v jazyku C, ktorý dokáže prehrať <a href="audio.mp3">PESNÍČKU</a>, alebo <a href="video.mpg">VIDEO</a> (vy si môžete vybrať).</p>
+        <p>Najprv si prečítajte, ako sa <a href="http://ap.urk.fei.stuba.sk/blok-2-asm7/">pracuje s multimédiami vo Windows API</a> (Prerobím keď budem mať čas). Potom si vyskúšajte niektoré príkazy v interaktívnom programe <a href="TestMCI.exe">TestMCI.exe</a> (do okienka zadáte príkaz, ten sa hneď vykoná). Potom napíšte program na prehrávanie v jazyku C. Program musí mať možnosť zadať meno prehrávaného súboru, spustiť, pozastaviť a ukončiť prehrávanie.</p>
+        <p style="color: #44ff00;">Úvodná obrazovka programu musí mať v rámci možností pekný dizajn s vysvetlením jednotlivých funkcií. POUŽITE ASCII ZNAKY na vytvorenie grafického ohraničenia. Po ukončení prehrávania sa obrazovka vyčistí a opäť sa zobrazí úvodná obrazovka.</p>
+        <p>Tip 1.:</p>
+        <ul>
+          <li>Ak vám už v TestMCI.exe všetko funguje, prepíšte to do programu v jazyku C. Práca s multimediálnymi zariadeniami sa robí pomocou funkcie mciSendString() (treba #include ). Jednoducho vložte reťazce, ktoré ste zadávali v TestMCI.exe ako argumenty do funkcie mciSendString().</li>
+          <li>Pozor: Musíte si prilinkovať knižničný súbor winmm.lib (vo Visual C++: Project >> Settings >> Link >> Object/library modules, dopíšte na koniec riadku winmm.lib). (Pre Dev-C++: Project >> Project Options >> Parameters >> Add Lib >> libwinmm.a)</li>
+        </ul>
+
+        <p>Tip 2.:</p>
+        <ul>
+          <li>Aby ste sa nemuseli prehrabávať v hlbinách menu, môžete knižnicu pripojiť aj príkazom pre kompilátor priamo do záhlavia vášho zdrojového kódu:
+            #pragma comment( lib, “winmm.lib” )</li>
+        </ul>
+
+        <p>Tip 3.:</p>
+        <ul>
+          <li>Aby program nemusel pracovať s UNICODE, nastavte si projekt pre prácu v znakovom režime MultiByte</li>
+        </ul>
+
+        <p>Zdroje:</p>
+        <ul>
+          <li><a href="https://learn.microsoft.com/en-us/previous-versions//dd757161(v=vs.85)?redirectedfrom=MSDN">mciSendString()</a> – popis funkcie [msdn]</li>
+          <li><a href="https://learn.microsoft.com/sk-sk/windows/win32/multimedia/mci-reference?redirectedfrom=MSDN">Zoznam mci príkazov </a></li>
+        </ul>
+
+        <p>PO NOVOM LINUX SUPPORT:</p>
+        <ul>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-Linux-media-supp/">Nájdeš ho tu</a></li>
+        </ul>
       </div>
 
 
-      <div id="uloha211" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
+      <div id="uloha251" class="section">
+        <h2>Úloha 2.5.1 (1b)</h2>
+        <p>Napíšte program, ktorý bude postupne vypisovať čísla od 0 po 50, pričom v závislosti od veľkosti čísla sa bude meniť jeho farba, napríklad pre čísla od 0 po 10 bude zelená, 11 až 22 červená a 23 až 35 modrá, atď. Rýchlosť výpisu na obrazovku obmedzte na cca 1 znak/sekundu.</p>
+        <p style="color:#44ff00;">Výpis musí byť v cykle a vo formáte 001 002 ako je na obrázku:</p>
+        <img src="assets/img/blok2/uloha26delay.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+        
+        <p>Tip 1.:</p>
+        <ul>
+          <li>V konzolovom režime je možné meniť aj farbu vypisovaného textu pomocou funkcie SetConsoleTextAttribute(hConsole, k); Pričom hConsole je handle konzoly, k je atribút farieb od 0 po 255.</li>
+          <li>Aby ste mohli meniť farby, musíte najprv pomocou funkcie GetStdHandle získať handle na konzolu, je to podobné, ako keď pred prácou so súborom najprv získate smerník na súbor. Robí sa to napr. takto:</li>
+          <p style="color:#44ff00">HANDLE  hConsole;</p>
+          <p style="color:#44ff00">hConsole = GetStdHandle(STD_OUTPUT_HANDLE);</p>
+          <li>Horeuvedené funkcie sú definované vo windows.h</li>
+        </ul>
+
+        <p>Tip 2.:</p>
+        <ul>
+          <li>Napíšte si pomocný program, ktorým zistíte farby prislúchajúce všetkým kombináciam k od 0 do 255</li>
+        </ul>
+
+        <p>Tip 3.:</p>
+        <ul>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm8/">Návod</a> a <a href="http://ap.urk.fei.stuba.sk/wp-content/uloha26delay.c.html">vzorový program</a> na prácu s časom</li>
+        </ul>
+
+        <p>Zdroj:</p>
+        <ul>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm9/">Čo je to handle?</a> (Prerobím keď budem mať čas)</li>
+          <li><a href="https://learn.microsoft.com/en-us/windows/console/setconsoletextattribute?redirectedfrom=MSDN">SetConsoleTextAttribute() </a></li>
+          <li><a href="https://learn.microsoft.com/en-us/windows/console/console-functions?redirectedfrom=MSDN">Console functions</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/windows/console/using-the-console?redirectedfrom=MSDN">Using the console</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/windows/console/console-screen-buffers?redirectedfrom=MSDN">Colors and text attributes </a></li>
+
+        </ul>
       </div>
 
 
-      <div id="uloha211" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
+      <div id="uloha252" class="section">
+        <h2>Úloha 2.5.2 (3b)</h2>
+        <p>Napíšte program, ktorý na miesto v okne zadané pri spustení súradnicami [x,y] vypíše tabuľku s informáciami o Vašej osobe. Parametre uvedené na obrázku sú ilustračné, ale musia byť zadané v premenných, nemôže byť celý výpis “natvrdo” naprogramovaný. Parametrom zobrazenia teda bude pozícia v okne a premenné s hodnotami vypisovaných údajov. Pri zmene niektorého údaja (napr. meno) sa musí rámik prispôsobiť textu, nie naopak:</p>
+        <img src="assets/img/blok2/uloha27.png" style="width:50%; border:2px #44ff00 solid;margin-left:100px;">
+        <p>Tip 1.:</p>
+        <ul>
+          <li>Farby viete meniť z úlohy 2.6. Ako sa text vypíše na konkrétnu pozíciu sa naučte z tohoto vzorového programu. Rámik vytvorte zo znakov s ASCII kódom > 127. Na zistenie, ktoré znaky potrebujete využite upravený program z úlohy 1.1, ktorým si vypíšete celú tabuľku ASCII znakov.</li>
+        </ul>
+
+        <p>Zdroj:</p>
+        <ul>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm10/">vysvetlivky k vzorovému programu</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/windows/console/setconsolecursorposition?redirectedfrom=MSDN ">SetConsoleCursorPosition() </a></li>
+        </ul>
       </div>
 
 
-      <div id="uloha211" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
+      <div id="uloha26" class="section">
+        <h2>Úloha 2.6</h2>
+        <p>Napíšte program, ktorý po stlačení klávesy F1 vypíše návod na použitie, F2 spustí meranie a program skončí F10 alebo ESC. Meranie bude spočívať v tom, že program vygeneruje náhodný znak (stačí písmená), zobrazí ho do stredu okna a spustí meranie času. Meranie sa zastaví v okamihu, keď užívateľ stlačí rovnakú klávesu. Ak užívateľ stlačí niečo iné, program to bude ignorovať. Napokon program vypíše zmeraný čas, ktorý uplynie od vypísania po stlačenie rovnakej klávesy. Po prvom meraní ide ďalšie meranie a po ňom ďalšie, až kým používateľ program neukončí (použite cyklus). Návod na použitie musí mať pekný dizajn, použite nejaké ASCII znaky na vytvorenie ohraničenia návodu.</p>
+
+        <p>Príklad</p>
+        <ul>
+          <p>Stlač:    X    ….   1,25 s              stlačené X</p>
+            <p>Stlač:    Z    ….. 33,12 s            stlačené postupne ABCDEF…Z</p>
+            <p>Koniec                                        stlačené F10</p>
+        </ul>
+
+        <p>Tip 1.:</p>
+        <ul>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm11/">Návod</a> a <a href="http://ap.urk.fei.stuba.sk/wp-content/uloha29time.c.html">vzorový program</a> na prácu s časom a knižnicou time.h</li>
+        </ul>
+
+        <p>Tip 2.:</p>
+        <ul>
+          <li><a href="http://ap.urk.fei.stuba.sk/blok-2-asm12/">Návod</a> a <a href="http://ap.urk.fei.stuba.sk/wp-content/uloha29conio.c.html">vzorový program</a> na prácu s časom a knižnicou casio.h</li>
+        </ul>
+
+        <p>Tip 3.:</p>
+        <ul>
+          <li>Namiesto knižnice conio.h môžete použiť aj iné, napríklad curses.h, prípadne ncurses, používané v Unixovom svete.</li>
+        </ul>
+
+        <p>Tip 4.:</p>
+        <ul>
+          <li>Win32 <a href="http://ap.urk.fei.stuba.sk/wp-content/uloha29.htm">Vzorový program</a> na detekciu kláves Alt, Ctrl a Shift vrátane rozpoznávania pohybu myši.Pozn.: treba kompilovať ako C++ projekt, nestačí obyčajné C. Používa štandartné funkcie WinApi. Na rozdiel od predošlého vie pracovať aj s myšou.</li>
+        </ul>
+
+        <p>Zdroje:</p>
+        <ul>
+          <li>Snáď postačí tento <a href="http://ap.urk.fei.stuba.sk/wp-content/uloha29.htm">Vzorový program</a> a popis funkcie <a href="https://learn.microsoft.com/sk-sk/windows/win32/api/winuser/nf-winuser-getasynckeystate?redirectedfrom=MSDN">GetAsyncKeyState()</a> a <a href="https://learn.microsoft.com/sk-sk/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN">Kódy Virtual Key</a></li>
+        </ul>
       </div>
-
-
-      <div id="uloha211" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-
-
-      <div id="uloha211" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-
-
-      <div id="uloha211" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-
-
-      <div id="uloha211" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-
-
-      <div id="uloha211" class="section">
-        <h2>Úloha 2.1.1</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-
-     
-
-      
     </div>
   </div>
 
