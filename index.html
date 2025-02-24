@@ -95,12 +95,48 @@
 
       <div id="OTAZKY" class="section">
         <h2>Otázky</h2>
-        <p>Tu sú niektoré časté otázky k témam, ktoré budeme preberať:</p>
-        <ul>
-          <li>Čo je CPU a ako funguje?</li>
-          <li>Aký je rozdiel medzi RAM a ROM?</li>
-          <li>Na čo slúžia registry v procesore?</li>
-        </ul>
+        <p>Tu sú niektoré časté otázky k témam, ktoré budeme preberať (najskôr LEN 1 až 5 !!!):</p>
+
+
+<ol>
+  <li>Čo je to bit?</li>
+  <p>Bit (b) je základná a najmenšia dátová jednotka v počítači. Môže nadobúdať binárnu hodnotu 0 alebo 1.</p>
+  
+  <li>Čo je to bajt (byte)?</li>
+  <p>Bajt (B) je jednotka digitálnej informácie. Pozostáva z ôsmich bitov.</p>
+  
+  <li>Koľko hodnôt vieme zakódovať do jedného bajtu?</li>
+  <p>2 na ôsmu, čiže 256 hodnôt.</p>
+  
+  <li>Aký rozsah hodnôt (kladných vrátane nuly) vieme zakódovať do jedného bajtu?</li>
+  <p>0 – 255.</p>
+  
+  <li>Čo je to kompilátor?</li>
+  <p>Kompilátor je softvérový nástroj schopný preložiť zdrojový kód napísaný programátorom do strojového kódu vykonateľného počítačom.</p>
+  
+  <li>Aký je rozdiel medzi jazykom symbolických inštrukcií, assemblerom a strojovým kódom?</li>
+  <p>- Jazyk symbolických inštrukcií je pre ľudí na čítanie vhodná forma strojového kódu.</p>
+  <p>- Strojový kód je v podstate takmer to isté čo jazyk symbolických inštrukcií. Procesor však vie pracovať len s jednotkami a nulami. Čiže každej inštrukcii je priradená konkrétna binárna postupnosť. Pre procesor 8086 zo 70-tych rokov 20. storočia inštrukcia CMP vyzerá napr. takto: 0x38 hexadecimálne, čiže 00111000 binárne.</p>
+  <p>- Assembler je počítačový program na preklad z jazyka symbolických inštrukcií do strojového kódu. (Hovorovo sa však jazyku symbolických inštrukcií často hovorí assembler – “nakódil som to v assembleri…”).</p>
+  
+  <li>Čo je to inštrukcia?</li>
+  <p>Inštrukcia je “základný prvok činnosti”, ktorú vykonáva procesor (napr. mov, cmp, add, sub).</p>
+  
+  <li>Čo je to register?</li>
+  <p>Register je malá, veľmi rýchla pamäťová oblasť umiestnená vo vnútri procesora (napr. EAX, EBX, SP). Môže mať 8, 32, 64 bitov a pod.</p>
+  
+  <li>Čo je to adresa?</li>
+  <p>Adresa je celé číslo ukazujúce na miesto v pamäti. Čiže keď Váš “noťas” má napr. 8 GB RAM-ky, tak adresa je číslo pomocou ktorého viete pristupovať (čítať/zapisovať) napr. k postupnosti jednotiek a núl uloženie na treťom GB.</p>
+  
+  <li>Čo je to kódovanie (v zmysle – kódovanie znakov v počítači)?</li>
+  <p>Viac informácií nájdeš tu: <a href="https://sk.wikipedia.org/wiki/K%C3%B3dovanie_(informatika)">Wikipedia o kódovaní</a></p>
+  
+  <li>Aký je rozdiel medzi reťazcom a poľom?</li>
+  
+  <li>Čo je to MSDN? Na čo Vám to je v súvislosti so zadaniami druhého bloku?</li>
+  <p>MSDN (Microsoft Developer Network) je súbor zdrojov a informácií určených pre developerov pracujúcich na Microsoft platforme. Zjednodušene povedané – ak chcete programovať napr. špecificky pre operačný systém Windows, tak potrebujete vedieť ako používať knižnice, ktoré Vám umožnia tento operačný systém “prinútiť” urobiť, presne to, čo chcete. Pomocou Vašich znalostí programovania a dokumentácie na MSDN viete pre Váš Windows “nakódiť” hocičo. Často sa stretnete so skratkou API (Application Programming Interface). Ide o zbierku funkcií a tried (ale aj iných programov), ktoré určujú akým spôsobom sa majú funkcie knižníc volať zo zdrojového kódu programu. Čiže, ak niečo “chcete” od Windows-u, musíte poznať jeho API, aby ste vedeli, aké funkcie máte do Vášho “zdrojáku” dať. A o nich sa dočítate práve na MSDN.</p>
+</ol>
+
       </div>
 
       <div id="UVODNE_CVICENIE" class="section">
